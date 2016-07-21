@@ -8,6 +8,7 @@ gem 'json', '~> 1.7.7'
 group :development do
   gem 'sqlite3'
   gem 'pry-rails'
+  gem 'rubocop', require: false
 end
 
 group :production do

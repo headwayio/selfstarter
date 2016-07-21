@@ -1,6 +1,6 @@
 class CreateOrders < ActiveRecord::Migration
   def change
-    create_table :orders, :id => false do |t|
+    create_table :orders, id: false do |t|
       t.string  :token
       t.string  :transaction_id
       t.string  :address_one
