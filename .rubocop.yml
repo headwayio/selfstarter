@@ -1,9 +1,13 @@
+AllCops:
+  Exclude:
+    - db/**/*
+  DisplayCopNames: true
+  Rails:
+    Enabled: true
+
 Metrics/LineLength:
   Max: 999
 
 Style/Documentation:
   Description: 'Document classes and non-namespace modules.'
   Enabled: false
-
-AllCops:
-  DisplayCopNames: true
